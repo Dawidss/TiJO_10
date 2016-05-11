@@ -2,7 +2,7 @@ describe('app', function () {
     'use strict';
 
     var app = window.app;
-
+    git pull https://github.com/A4Zen/TiJO_10.git pull-request-exercise
     describe('assignToSwimmingCourse', function () {
         it('should assign adult person to adult group', function () {
             expect(app.assignToSwimmingCourse('Czesio', '10/10/1995')).toEqual({
